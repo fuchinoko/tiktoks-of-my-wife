@@ -5,9 +5,88 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing:content-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.tiktok-embed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+button.active {
+  font-weight: bold;
+  color: red;
+}
+
+
+input[type="number"] {
+  width: 50px;
+}
+.pagination {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.pagination button,
+.pagination input {
+  margin: 0 5px;
+}
+
+.pagination .active {
+  font-weight: bold;
+}
+
+/* .list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  margin-bottom: 50px;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-inline: 20px;
+}
+
+.big_button {
+  cursor: pointer;
+  flex: 1 0;
+  display: block;
+}
+
+@media (max-width: 780px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .big_button {
+    height: 50px;
+    flex: none;
+  }
+  
+  .link {
+    order: 2;
+    width: auto;
+  }
+}
+
+.link {
+  flex:1;
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid blue;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-block: 10px;
 }
