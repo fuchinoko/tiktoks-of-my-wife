@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tiktoks-of-my-wife/static/css/main.8b80fa9f.css",
-    "main.js": "/tiktoks-of-my-wife/static/js/main.ddb517eb.js",
-    "static/js/453.e7572bd1.chunk.js": "/tiktoks-of-my-wife/static/js/453.e7572bd1.chunk.js",
+    "main.css": "/tiktoks-of-my-wife/static/css/main.616b9e1c.chunk.css",
+    "main.js": "/tiktoks-of-my-wife/static/js/main.52bf9599.chunk.js",
+    "main.js.map": "/tiktoks-of-my-wife/static/js/main.52bf9599.chunk.js.map",
+    "runtime~main.js": "/tiktoks-of-my-wife/static/js/runtime~main.9612bb70.js",
+    "runtime~main.js.map": "/tiktoks-of-my-wife/static/js/runtime~main.9612bb70.js.map",
+    "static/js/2.884fc344.chunk.js": "/tiktoks-of-my-wife/static/js/2.884fc344.chunk.js",
+    "static/js/2.884fc344.chunk.js.map": "/tiktoks-of-my-wife/static/js/2.884fc344.chunk.js.map",
     "index.html": "/tiktoks-of-my-wife/index.html",
-    "main.8b80fa9f.css.map": "/tiktoks-of-my-wife/static/css/main.8b80fa9f.css.map",
-    "main.ddb517eb.js.map": "/tiktoks-of-my-wife/static/js/main.ddb517eb.js.map",
-    "453.e7572bd1.chunk.js.map": "/tiktoks-of-my-wife/static/js/453.e7572bd1.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.8b80fa9f.css",
-    "static/js/main.ddb517eb.js"
-  ]
+    "precache-manifest.cc9f04874e6bb8a36f2ac2b6dbe90fe6.js": "/tiktoks-of-my-wife/precache-manifest.cc9f04874e6bb8a36f2ac2b6dbe90fe6.js",
+    "service-worker.js": "/tiktoks-of-my-wife/service-worker.js",
+    "static/css/main.616b9e1c.chunk.css.map": "/tiktoks-of-my-wife/static/css/main.616b9e1c.chunk.css.map"
+  }
 }
