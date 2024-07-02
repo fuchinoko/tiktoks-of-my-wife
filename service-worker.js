@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tiktoks-of-my-wife/precache-manifest.cc9f04874e6bb8a36f2ac2b6dbe90fe6.js"
+  "/tiktoks-of-my-wife/precache-manifest.0d238509679aac301c81cd9434f7a7a0.js"
 );
 
 self.addEventListener('message', (event) => {

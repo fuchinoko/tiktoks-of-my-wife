@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a5cdb28d3fc01dc77a5a3808b626c89",
+    "revision": "845feac181127bc4c8f91afcfe74c187",
     "url": "/tiktoks-of-my-wife/index.html"
   },
   {
-    "revision": "9143491242291df8a0b1",
+    "revision": "43980dbe8bf91d5e1898",
     "url": "/tiktoks-of-my-wife/static/css/main.616b9e1c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tiktoks-of-my-wife/static/js/2.884fc344.chunk.js"
   },
   {
-    "revision": "9143491242291df8a0b1",
-    "url": "/tiktoks-of-my-wife/static/js/main.52bf9599.chunk.js"
+    "revision": "43980dbe8bf91d5e1898",
+    "url": "/tiktoks-of-my-wife/static/js/main.ea798662.chunk.js"
   },
   {
     "revision": "d342f4914db4332d4959",
