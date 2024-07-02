@@ -69,7 +69,7 @@ const TikTokEmbed: React.FC<TikTokEmbedProps> = ({
     }
   }, []);
   const link = (
-    <a className="link" href={url}>
+    <a className="link" href={url} target="_blank" rel="noopener noreferrer">
       link
     </a>
   );
