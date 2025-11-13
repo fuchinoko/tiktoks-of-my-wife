@@ -73,6 +73,7 @@ const TikTokEmbed: React.FC<TikTokEmbedProps> = ({
       link
     </a>
   );
+  console.warn({ embedUrl });
   return (
     <div className="container">
       <button
@@ -87,8 +88,8 @@ const TikTokEmbed: React.FC<TikTokEmbedProps> = ({
           allow="autoplay"
           ref={iframeRef}
           style={{
-            height: "calc(100vh - 160px)",
-            width: "calc((100vh - 160px)/16*9)",
+            height: "calc(-20px + 100vh)",
+            aspectRatio: "9 / 16",
           }}
           src={embedUrl}
           allowFullScreen
@@ -110,7 +111,7 @@ const TikTokEmbed: React.FC<TikTokEmbedProps> = ({
 };
 
 const extractVideoId = (url: string): string => {
-  const match = url.match(/\/video\/(\d+)/);
+  const match = url.match(/\/(?:video|photo)\/(\d+)/);
   return match ? match[1] : "";
 };
 

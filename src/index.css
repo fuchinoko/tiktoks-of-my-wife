@@ -5,7 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing:content-box;
+  box-sizing: content-box;
+}
+
+.App {
+  text-align: center;
 }
 
 code {
@@ -29,10 +33,11 @@ button.active {
 input[type="number"] {
   width: 50px;
 }
+
 .pagination {
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: auto;
   background-color: white;
   padding: 10px;
   text-align: center;
@@ -69,12 +74,12 @@ input[type="number"] {
   .container {
     flex-direction: column;
   }
-  
+
   .big_button {
     height: 50px;
     flex: none;
   }
-  
+
   .link {
     order: 2;
     width: auto;
@@ -82,7 +87,7 @@ input[type="number"] {
 }
 
 .link {
-  flex:1;
+  flex: 1;
   width: calc(100% - 20px);
   padding: 10px;
   border: 1px solid blue;
